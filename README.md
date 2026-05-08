@@ -26,14 +26,14 @@ A professional command-line tool for changing local and public IP addresses, pro
 
 ```bash
 pip install requests
-Run the script:
 ```
 
+Run the script:
 ```bash
 python IP_Changer.py
-Or on Linux/Mac:
 ```
 
+Or on Linux/Mac:
 ```bash
 python3 IP_Changer.py
 ```
