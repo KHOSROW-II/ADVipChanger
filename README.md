@@ -44,59 +44,59 @@ Start the program:
 python IP_Changer.py
 ```
 
-Main Menu Options:
-Option	Description
-1	Change LOCAL IP - Manual Configuration
-2	Change LOCAL IP - Automatic (DHCP)
-3	Change PUBLIC IP - Manual (Via Proxy Entry)
-4	Change PUBLIC IP - Smart Automatic (GitHub Proxies)
-5	Tunnel Program Through Active Proxy
-6	Show Current Network Info
-7	Test Your Current Public IP
-0	Exit
+### Main Menu Options:
+## Option	Description
+- 1	Change LOCAL IP - Manual Configuration
+- 2	Change LOCAL IP - Automatic (DHCP)
+- 3	Change PUBLIC IP - Manual (Via Proxy Entry)
+- 4	Change PUBLIC IP - Smart Automatic (GitHub Proxies)
+- 5	Tunnel Program Through Active Proxy
+- 6	Show Current Network Info
+- 7	Test Your Current Public IP
+- 0	Exit
 ------
 ### 📖 How It Works
-Local IP Change
-Manual: Set static IP, subnet mask, and gateway
+## Local IP Change
+- Manual: Set static IP, subnet mask, and gateway
 
-DHCP: Automatically obtain IP from router
+- DHCP: Automatically obtain IP from router
 
-Public IP Change (Smart Mode)
-Fetches proxies from 5 different GitHub sources
+- Public IP Change (Smart Mode)
+- Fetches proxies from 5 different GitHub sources
 
-Tests each proxy for connectivity
+- Tests each proxy for connectivity
 
-Finds working proxies with lowest latency
+- Finds working proxies with lowest latency
 
-Changes your public IP automatically
+- Changes your public IP automatically
 
-Program Tunneling
-Routes any application through your active proxy
+- Program Tunneling
+- Routes any application through your active proxy
 
-Works with browsers, curl, ping, and other tools
+- Works with browsers, curl, ping, and other tools
 
-Sets HTTP_PROXY and HTTPS_PROXY environment variables
+- Sets HTTP_PROXY and HTTPS_PROXY environment variables
 
 ### 🖥️ Platform Support
-OS	Supported	Admin Required (Local IP)
-Windows	✅ Yes	Run as Administrator
-Linux	✅ Yes	sudo
-macOS	✅ Yes	sudo
-⚠️ Important Notes
-Admin/Root privileges are required for local IP changes
+- OS	Supported	Admin Required (Local IP)
+- Windows	✅ Yes	Run as Administrator
+- Linux	✅ Yes	sudo
+- macOS	✅ Yes	sudo
+## ⚠️ Important Notes
+**Admin/Root privileges are required for local IP changes**
 
-Public IP change works by routing traffic through proxies (not changing ISP IP)
+**Public IP change works by routing traffic through proxies (not changing ISP IP)**
 
-Some proxies may be slow or unreliable
+**Some proxies may be slow or unreliable**
 
-Proxy sources are fetched from public GitHub repositories
+**Proxy sources are fetched from public GitHub repositories**
 
 ### 📝 Example Commands
-Run on Windows as Admin:
-powershell
+- Run on Windows as Admin:
+- **powershell**
 # Right-click PowerShell -> Run as Administrator
-python IP_Changer.py
-Run on Linux/Mac:
+- python IP_Changer.py
+- **Run on Linux/Mac:**
 ```bash
 sudo python3 IP_Changer.py
 ```
