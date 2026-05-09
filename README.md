@@ -30,18 +30,18 @@ pip install requests
 
 Run the script:
 ```bash
-python IP_Changer.py
+python IPchanger.py
 ```
 
 Or on Linux/Mac:
 ```bash
-python3 IP_Changer.py
+python3 IPchanger.py
 ```
 
 🚀 Usage
 Start the program:
 ```bash
-python IP_Changer.py
+python IPchanger.py
 ```
 
 ### Main Menu Options:
@@ -98,7 +98,7 @@ python IP_Changer.py
 - python IP_Changer.py
 - **Run on Linux/Mac:**
 ```bash
-sudo python3 IP_Changer.py
+sudo python3 IPchanger.py
 ```
 
 Tunnel Firefox through proxy:
